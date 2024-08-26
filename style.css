@@ -1,48 +1,59 @@
-/* Fonts */
+/* Font declaration for later use in game wiki | Декларация шрифтов для дальнейшего использования в вики игры */
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Extra Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-ExtraLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Extra Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-Light.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-LightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Semi Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-SemiLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Semi Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-SemiLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Regular';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-Italic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Semi Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Semi Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-SemiBoldItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-Bold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf') format('truetype');
@@ -53,46 +64,57 @@
 	font-family: 'CaskaydiaCove Nerd Font Mono Extra Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Extra Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-ExtraLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-Light.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-LightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Semi Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Semi Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-SemiLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Regular';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-Regular.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-Italic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Semi Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Semi Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-SemiBoldItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-Bold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-BoldItalic.ttf') format('truetype');
@@ -103,52 +125,64 @@
 	font-family: 'CaskaydiaCove Nerd Font Propo Extra Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Extra Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-ExtraLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-Light.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-LightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Semi Light';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLight.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Semi Light Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiLightItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Regular';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-Regular.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-Italic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Semi Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Semi Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-SemiBoldItalic.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Bold';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-Bold.ttf') format('truetype');
 }
+
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontPropo-BoldItalic.ttf') format('truetype');
 }
 
-html, body {
+html,
+body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
@@ -165,6 +199,7 @@ body {
 main {
 	flex: 1;
 	margin-top: 48px;
+	/* Fix hidden navbar text | Исправляет спрятанный под навбаром текст */
 }
 
 nav {
@@ -196,6 +231,11 @@ nav .logo-text {
 	color: inherit;
 }
 
+.logo img.mirror {
+	/* Mirror logo | Отражает лого */
+	transform: scaleX(-1);
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -218,7 +258,10 @@ nav li a {
 	color: inherit;
 }
 
-nav li a:hover, nav .logo:hover, nav ul li a.active {
+nav li a:hover,
+nav .logo:hover,
+nav ul li a.active {
+	/* Highlighting | Подсветочка */
 	background-color: #404040;
 }
 
@@ -227,14 +270,25 @@ nav ul li.right {
 }
 
 @media screen and (max-width: 650px) {
+
+	/* Smartphone mode | Режим для смартфонов */
+	main {
+		margin-top: 0;
+		/* No need for hidden navbar text if using static position | Исправление текста под навбаром не нужно когда позиция статическая */
+	}
+
 	nav {
 		flex-direction: column;
 		align-items: center;
+		position: static;
+		/* Switch to static position in smartphone mode | Переключение на статическую позицию в режиме для смартфонов */
 	}
+
 	nav ul {
 		justify-content: center;
 		width: 100%;
 	}
+
 	nav ul li {
 		display: block;
 		text-align: center;
