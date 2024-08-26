@@ -210,6 +210,8 @@ nav {
 	background-color: #000000;
 	color: #FFFFFF;
 	z-index: 1000;
+	align-items: center;
+	/* Center items vertically */
 }
 
 nav .logo {
@@ -269,9 +271,23 @@ nav ul li.right {
 	margin-left: auto;
 }
 
-@media screen and (max-width: 650px) {
+/*.language-selector {
+	margin-left: auto;
+	margin-right: 16px;
+}
 
-	/* Smartphone mode | Режим для смартфонов */
+.language-selector select {
+	background-color: #404040;
+	color: #FFFFFF;
+	border: none;
+	padding: 8px;
+	font-size: 14px;
+	border-radius: 4px;
+}*/
+
+@media screen and (max-width: 800px) {
+
+	/* Mobile view | Режим для смартфонов */
 	main {
 		margin-top: 0;
 		/* No need for hidden navbar text if using static position | Исправление текста под навбаром не нужно когда позиция статическая */
@@ -281,7 +297,7 @@ nav ul li.right {
 		flex-direction: column;
 		align-items: center;
 		position: static;
-		/* Switch to static position in smartphone mode | Переключение на статическую позицию в режиме для смартфонов */
+		/* Switch to static position in mobile view | Переключение на статическую позицию в режиме для смартфонов */
 	}
 
 	nav ul {
@@ -293,6 +309,12 @@ nav ul li.right {
 		display: block;
 		text-align: center;
 	}
+
+	/*.language-selector {
+		margin-left: 0;
+		padding-top: 4px;
+		padding-bottom: 16px;
+	}*/
 }
 
 footer {
