@@ -47,6 +47,7 @@
 	font-family: 'CaskaydiaCove Nerd Font Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf') format('truetype');
 }
+
 /* Mono */
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Mono Extra Light';
@@ -96,6 +97,7 @@
 	font-family: 'CaskaydiaCove Nerd Font Mono Bold Italic';
 	src: url('CascadiaCode/CaskaydiaCoveNerdFontMono-BoldItalic.ttf') format('truetype');
 }
+
 /* Propo */
 @font-face {
 	font-family: 'CaskaydiaCove Nerd Font Propo Extra Light';
@@ -149,14 +151,14 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	height: 100%; /* Ensures the body takes up the full height */
+	height: 100%;
 	box-sizing: border-box;
+	font-family: 'CaskaydiaCove Nerd Font Regular';
 }
 
 body {
 	display: flex;
 	flex-direction: column;
-	font-family: 'CaskaydiaCove Nerd Font Regular';
 	min-height: 100vh;
 }
 
@@ -165,52 +167,84 @@ main {
 	margin-top: 48px;
 }
 
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	background-color: #000000;
+	color: #FFFFFF;
+	z-index: 1000;
+}
+
+nav .logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: inherit;
+}
+
+nav .logo img {
+	height: 48px;
+}
+
+nav .logo-text {
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px;
+	text-decoration: none;
+	color: inherit;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #000000;
-
-	position: fixed;
-	top: 0;
-	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	flex: 1;
 }
 
 nav li {
-	float: left;
+	display: inline-block;
 }
 
 nav li a {
 	display: block;
 	text-align: center;
-	padding: 16px 16px;
+	padding: 16px;
 	text-decoration: none;
-	color: #FFFFFF;
+	color: inherit;
 }
 
-nav li a:hover {
-	background-color: #000000;
+nav li a:hover, nav .logo:hover, nav ul li a.active {
+	background-color: #404040;
 }
 
-nav ul li a:hover:not(.active) {background-color: #404040;}
-
-nav ul li a.active {background-color: #404040;}
-
-nav ul li.right {float: right;}
+nav ul li.right {
+	margin-left: auto;
+}
 
 @media screen and (max-width: 650px) {
-	nav ul {position: static;}
-	nav ul li.right,
-	nav ul li {float: none;}
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+	nav ul {
+		justify-content: center;
+		width: 100%;
+	}
+	nav ul li {
+		display: block;
+		text-align: center;
+	}
 }
 
 footer {
 	background-color: #000000;
 	color: #FFFFFF;
-	padding: 0px 16px;
 	margin-top: auto;
 	width: 100%;
 	box-sizing: border-box;
 }
-
