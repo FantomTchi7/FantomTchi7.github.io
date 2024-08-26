@@ -1,7 +1,55 @@
 @font-face {
-  font-family: BigBlueTerm Nerd Font;
-  src: url('BigBlueTermPlusNerdFont-Regular.ttf') format('truetype');
+	font-family: 'CaskaydiaCoveNerdFont-Bold';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-Bold.ttf) format('truetype');
 }
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-BoldItalic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-BoldItalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-ExtraLight';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-ExtraLight.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-ExtraLightItalic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-ExtraLightItalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-Italic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-Italic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-Light';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-Light.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-LightItalic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-LightItalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-Regular';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-SemiBold';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-SemiBold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-SemiBoldItalic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-SemiBoldItalic.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-SemiLight';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-SemiLight.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'CaskaydiaCoveNerdFont-SemiLightItalic';
+	src: url(CascadiaCode/CaskaydiaCoveNerdFont-SemiLightItalic.ttf) format('truetype');
+}
+
+
+
+
 
 nav{
 	
@@ -9,7 +57,7 @@ nav{
 	background-color: #8F8FFF; /*tausta värv*/
 	/*width: 50%; laius*/
 	text-align: center;
-	font-family: "BigBlueTerm Nerd Font";
+	font-family: "CaskaydiaCoveNerdFont-Regular";
 	font-size: 18pt;
 }
 
@@ -44,7 +92,7 @@ main section {
 	
 	color: #000000;
 	background-color: #FFFFFF;
-	font-family: "BigBlueTerm Nerd Font";
+	font-family: "CaskaydiaCoveNerdFont-Regular";
 	margin: 4pt;
 	
 }
@@ -53,7 +101,7 @@ main section h2 {
 	
 	color: #000000;
 	background-color: #FFFFFF;
-	font-family: "BigBlueTerm Nerd Font";
+	font-family: "CaskaydiaCoveNerdFont-Regular";
 	text-align: center;
 	
 }
@@ -63,7 +111,7 @@ footer {
 	color: #000000;
 	background-color: #8F8FFF;
 	/*width: 25%;*/
-	font-family: "BigBlueTerm Nerd Font";
+	font-family: "CaskaydiaCoveNerdFont-Regular";
 	border: groove 4pt;
 	margin: 4pt;
 	text-align: center;
