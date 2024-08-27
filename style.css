@@ -296,7 +296,7 @@ footer {
 	padding-left: 16px;
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-aspect-ratio: 1/1.5) {
 
 	/* Mobile view | Режим для смартфонов */
 	main {
@@ -342,6 +342,6 @@ footer {
 	}*/
 
 	footer {
-		font-size: max(3vw, 18px);
+		font-size: max(2vw, 18px);
 	}
 }
