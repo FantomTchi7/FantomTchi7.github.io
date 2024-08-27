@@ -221,7 +221,7 @@ nav .logo {
 }
 
 nav .logo img {
-	height: 48px;
+	width: 48px;
 }
 
 nav .logo-text {
@@ -257,6 +257,7 @@ nav li a {
 	padding: 16px;
 	text-decoration: none;
 	color: inherit;
+	font-size: 16px;
 }
 
 nav li a:hover,
@@ -284,6 +285,16 @@ nav ul li.right {
 	border-radius: 4px;
 }*/
 
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	margin-top: auto;
+	width: 100%;
+	box-sizing: border-box;
+	width: 100vw;
+	font-size: 1vh;
+}
+
 @media screen and (orientation: portrait) {
 
 	/* Mobile view | Режим для смартфонов */
@@ -299,9 +310,17 @@ nav ul li.right {
 		/* Switch to static position in mobile view | Переключение на статическую позицию в режиме для смартфонов */
 	}
 
+	nav .logo img {
+		width: 7vw;
+	}
+
+	nav .logo-text {
+		font-size: 4vw;
+	}
+
 	nav ul {
 		justify-content: center;
-		width: 100%;
+		width: 100vw;
 	}
 
 	nav ul li {
@@ -309,17 +328,19 @@ nav ul li.right {
 		text-align: center;
 	}
 
+	nav ul li a {
+		display: block;
+		text-align: center;
+		font-size: 4vw;
+	}
+
 	/*.language-selector {
 		margin-left: 0;
 		padding-top: 4px;
 		padding-bottom: 16px;
 	}*/
-}
 
-footer {
-	background-color: #000000;
-	color: #FFFFFF;
-	margin-top: auto;
-	width: 100%;
-	box-sizing: border-box;
+	footer {
+		font-size: 2vh;
+	}
 }
