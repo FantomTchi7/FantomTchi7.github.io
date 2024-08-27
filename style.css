@@ -311,6 +311,10 @@ footer {
 		position: static;
 		/* Switch to static position in mobile view | Переключение на статическую позицию в режиме для смартфонов */
 	}
+	nav .logo {
+		width: 100vw;
+		justify-content: center;
+	}
 
 	nav .logo img {
 		width: min(11vw, 62px);
@@ -323,24 +327,29 @@ footer {
 	nav ul {
 		justify-content: center;
 		width: 100vw;
+		padding: 0;
 	}
 
 	nav ul li {
 		display: block;
 		text-align: center;
+		width: 100vw;
 	}
 
 	nav ul li a {
 		display: block;
 		text-align: center;
 		font-size: clamp(18px, 28px, 4vw);
+		padding: 16px 0;
+		width: 100%;
+		box-sizing: border-box;
 	}
 
 	/*.language-selector {
-		margin-left: 0;
-		padding-top: 4px;
-		padding-bottom: 16px;
-	}*/
+	 *	margin-left: 0;
+	 *	padding-top: 4px;
+	 *	padding-bottom: 16px;
+}*/
 
 	footer {
 		font-size: clamp(16px, 18px, 3vw);
