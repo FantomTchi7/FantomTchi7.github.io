@@ -292,7 +292,8 @@ footer {
 	width: 100%;
 	box-sizing: border-box;
 	width: 100vw;
-	font-size: 1vh;
+	font-size: 16px;
+	padding-left: 16px;
 }
 
 @media screen and (orientation: portrait) {
@@ -341,6 +342,6 @@ footer {
 	}*/
 
 	footer {
-		font-size: 2vh;
+		font-size: 4vw;
 	}
 }
