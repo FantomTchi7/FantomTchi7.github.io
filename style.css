@@ -226,7 +226,7 @@ nav .logo img {
 
 nav .logo-text {
 	font-size: 16px;
-	font-weight: bold;
+	font-family: 'CaskaydiaCove Nerd Font Bold';
 	padding: 16px;
 	text-decoration: none;
 	color: inherit;
@@ -312,11 +312,11 @@ footer {
 	}
 
 	nav .logo img {
-		width: 7vw;
+		width: max(7vw, 50px);
 	}
 
 	nav .logo-text {
-		font-size: 4vw;
+		font-size: max(4vw, 18px);
 	}
 
 	nav ul {
@@ -332,7 +332,7 @@ footer {
 	nav ul li a {
 		display: block;
 		text-align: center;
-		font-size: 4vw;
+		font-size: max(4vw, 18px);
 	}
 
 	/*.language-selector {
@@ -342,6 +342,6 @@ footer {
 	}*/
 
 	footer {
-		font-size: 4vw;
+		font-size: max(3vw, 18px);
 	}
 }
