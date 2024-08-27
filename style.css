@@ -284,7 +284,7 @@ nav ul li.right {
 	border-radius: 4px;
 }*/
 
-@media screen and (max-width: 800px) {
+@media screen and (orientation: portrait) {
 
 	/* Mobile view | Режим для смартфонов */
 	main {
