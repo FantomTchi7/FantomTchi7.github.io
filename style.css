@@ -187,7 +187,7 @@ body {
 	padding: 0;
 	height: 100%;
 	box-sizing: border-box;
-	font-family: 'CaskaydiaCove Nerd Font Regular';
+	font-family: 'CaskaydiaCove Nerd Font Regular', monospace;
 }
 
 body {
@@ -226,7 +226,7 @@ nav .logo img {
 
 nav .logo-text {
 	font-size: 16px;
-	font-family: 'CaskaydiaCove Nerd Font Bold';
+	font-family: 'CaskaydiaCove Nerd Font Bold', monospace;
 	padding: 16px;
 	text-decoration: none;
 	color: inherit;
