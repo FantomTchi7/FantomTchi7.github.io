@@ -272,18 +272,18 @@ nav ul li.right {
 }
 
 /*.language-selector {
-	margin-left: auto;
-	margin-right: 16px;
-}
-
-.language-selector select {
-	background-color: #404040;
-	color: #FFFFFF;
-	border: none;
-	padding: 8px;
-	font-size: 14px;
-	border-radius: 4px;
-}*/
+ * margin-left: auto;
+ * margin-right: 16px;
+ * } *
+ *
+ * .language-selector select {
+ * background-color: #404040;
+ * color: #FFFFFF;
+ * border: none;
+ * padding: 8px;
+ * font-size: 14px;
+ * border-radius: 4px;
+ * }*/
 
 footer {
 	background-color: #000000;
@@ -297,12 +297,13 @@ footer {
 	padding-right: 16px;
 }
 
-@media screen and (max-aspect-ratio: 1/1.5) {
+@media screen and (max-aspect-ratio: 1/1.5),
+screen and (max-width: 600px) {
 
 	/* Mobile view | Режим для смартфонов */
 	main {
 		margin-top: 0;
-		/* No need for hidden navbar text if using static position | Исправление текста под навбаром не нужно когда позиция статическая */
+		/* No need for hidden navbar text fix if using static position | Исправление текста под навбаром не нужно когда позиция статическая */
 	}
 
 	nav {
@@ -311,6 +312,7 @@ footer {
 		position: static;
 		/* Switch to static position in mobile view | Переключение на статическую позицию в режиме для смартфонов */
 	}
+
 	nav .logo {
 		width: 100vw;
 		justify-content: center;
